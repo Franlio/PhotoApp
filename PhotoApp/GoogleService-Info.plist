@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>420811575728-9nvh7rqg7evi01qec8mme5t1d7ojnbbe.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.420811575728-9nvh7rqg7evi01qec8mme5t1d7ojnbbe</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAo-XSNHa-bZIBWwI9uIUIPdOPr76cqKbo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>420811575728</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.franlio.PhotoApp</string>
+	<key>PROJECT_ID</key>
+	<string>photoapp-504f0</string>
+	<key>STORAGE_BUCKET</key>
+	<string>photoapp-504f0.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:420811575728:ios:615cbb41194d0d64300675</string>
+	<key>DATABASE_URL</key>
+	<string>https://photoapp-504f0.firebaseio.com</string>
+</dict>
+</plist>
