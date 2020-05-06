@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class SettingsViewController: UIViewController {
 
@@ -17,16 +18,29 @@ class SettingsViewController: UIViewController {
     }
     
     @IBAction func signOutTapped(_ sender: UIButton) {
+        
+        do {
+            
+            // Sign out using Firebase auth methods
+            try Auth.auth().signOut()
+            
+            // Clear local storage
+            LocalStorageService.clearCurrentUser()
+            
+            // Change the window to show the login screen
+            let loginVC = storyboard?.instantiateViewController(withIdentifier: Constants.Storyboard.loginNavController)
+            
+            view.window?.rootViewController = loginVC
+            view.window?.makeKeyAndVisible()
+            
+            
+        } catch {
+            
+            // Error signing out
+            print("Couldn't sign out")
+            
+        }
+        
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

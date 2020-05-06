@@ -10,6 +10,9 @@ target 'PhotoApp' do
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
   pod 'FirebaseUI/Auth'
-  pod 'Firebase/Auth'
+  pod 'FirebaseUI'
+  pod 'FirebaseUI/Email'
+  pod 'SDWebImage', '~> 5.0'
+  pod 'UICircularProgressRing'
 
 end
